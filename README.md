@@ -1,6 +1,15 @@
 # NetWork-Programming-hw2
-## Command
-broadcast:conversation
-2.secret talk:secret,ID,conversation
-3.list all user:list
-4.send file to particular user:send,ID,filename.The copy file will be named as "download_user"
+## A simple ChatRoom
+
+### Broadcast
+Type word on terminal and talk with others.
+
+### Secret Talk
+Type `secret,ID,< your_conversation >`
+
+### List all user
+Type `list`
+
+### Transfer File
+Send file to particular user.
+Type `send,ID,filename` , and the copy file will be named as `download_user_filename`
